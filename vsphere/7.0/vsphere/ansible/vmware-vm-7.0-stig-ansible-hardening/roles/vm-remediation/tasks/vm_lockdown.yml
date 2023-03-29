@@ -165,8 +165,6 @@
     executable: /usr/bin/pwsh
   when:
     - vmch_70_000008 | bool
-  notify:
-    - start_vms
   tags:
     - VMCH-70-000008
 
@@ -193,8 +191,6 @@
     executable: /usr/bin/pwsh
   when:
     - vmch_70_000009 | bool
-  notify:
-    - start_vms
   tags:
     - VMCH-70-000009
 
